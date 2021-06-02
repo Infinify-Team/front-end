@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="main.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://zenyxis.com/css/library.css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> </head>
+
+<body>
+	<div class="navbar">
+		<nav>
+			<ul>
+				<li>infinify</li>
+				<li><img src="https://cdn.discordapp.com/avatars/734286347858083863/a_7520b9d13ae0183018576cea531ac148.gif?size=1024"> zenyxis </li>
+				<li><span>25</span> <i class="far fa-bell" onclick="showNotifs()"></i></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="notifications">
+		<p class="nonotifs">NOTIFICATIONS</p>
+		<div class="notifdiv" style="margin-top: 2em;"><img src="https://cdn.discordapp.com/avatars/734286347858083863/a_7520b9d13ae0183018576cea531ac148.gif?size=1024" class="avatar-notif">
+			<p class="notif-text">zenyxis
+				<br><span>Sent you a friend request<span class="notifdot" >•</span></p>
+		</div>
+		<div class="notifdiv div1"><img src="https://cdn.discordapp.com/avatars/734286347858083863/a_7520b9d13ae0183018576cea531ac148.gif?size=1024" class="avatar-notif">
+			<p class="notif-text">zenyxis
+				<br><span>Has blocked you<span class="notifdot" >•</span></p>
+		</div>
+		<div class="notifdiv div2"><img src="https://cdn.discordapp.com/avatars/734286347858083863/a_7520b9d13ae0183018576cea531ac148.gif?size=1024" class="avatar-notif">
+			<p class="notif-text">zenyxis
+				<br><span>Has sent you a Direct Message<span class="notifdot" >•</span></p>
+		</div>
+		<div class="notifdiv div3"><img src="https://cdn.discordapp.com/avatars/734286347858083863/a_7520b9d13ae0183018576cea531ac148.gif?size=1024" class="avatar-notif">
+			<p class="notif-text">zenyxis
+				<br><span>Has posted<span class="notifdot" >•</span></p>
+		</div>
+	</div>
+	<div class="profile"> </div>
+	<div class="maincontent" id="content"> <img class="placeholder" src="https://cdn.discordapp.com/avatars/712088208514482197/1e0ac7ca957ca8a209ba1857c3773dbc.png?size=1024" />
+		<p class="premium">PREMIUM</p>
+		<p class="followers"><span class="followcount">4.20k</span>
+			<br>Following</p>
+		<p class="following"><span class="followcount">69m</span>
+			<br>Followers</p>
+		<p class="following"><span class="followcount">69m</span>
+			<br>Likes</p>
+		<p class="username">Spectre</p>
+		<div class="verificationd">
+			<p class="verified"><span class="checkmarkthing"><i class="fas fa-check" ></i></span><span class="verifiedtext">Verified User</span></p>
+		</div>
+		<p class="achievements">Achievements
+			<br><i class="fas achievementfa-trophy"></i></p>
+		<hr class="biohr">
+		<p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+	</div>
+	<div class="posts" onscroll="hideMain()">
+		<div class="post">
+			<p class="name"><img class="profilepicture" src="https://cdn.discordapp.com/avatars/712088208514482197/1e0ac7ca957ca8a209ba1857c3773dbc.png?size=1024" /> @spectre <span class="likecount"><i class="far fa-heart"></i> 50m</span></p> <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sunset-quotes-21-1586531574.jpg" class="postimage" />
+			<p class="comments">57 Comments... <i class="far fa-bookmark"></i>
+				<br><span class="likedby">Liked by 3 friends</span></p>
+		</div>
+		<div class="post">
+			<p class="name"><img class="profilepicture" src="https://cdn.discordapp.com/avatars/712088208514482197/1e0ac7ca957ca8a209ba1857c3773dbc.png?size=1024" /> @spectre <span class="likecount"><i class="far fa-heart"></i> 50m</span></p> <img src="https://bloximages.newyork1.vip.townnews.com/uatrav.com/content/tncms/assets/v3/editorial/d/f7/df7ca910-845b-11ea-b758-cf84649a7698/5e9fd946ef8ea.image.jpg?resize=1200%2C1200" class="postimage" />
+			<p class="comments">57 Comments... <i class="far fa-bookmark"></i>
+				<br><span class="likedby">Liked by 3 friends</span></p>
+		</div>
+		<div class="post">
+			<p class="name"><img class="profilepicture" src="https://cdn.discordapp.com/avatars/712088208514482197/1e0ac7ca957ca8a209ba1857c3773dbc.png?size=1024" /> @spectre <span class="likecount"><i class="far fa-heart"></i> 50m</span></p> <img src="https://i.redd.it/fz09td616o131.jpg" class="postimage" />
+			<p class="comments">57 Comments... <i class="far fa-bookmark"></i>
+				<br><span class="likedby">Liked by 3 friends</span></p>
+		</div>
+		<div class="post">
+			<p class="name"><img class="profilepicture" src="https://cdn.discordapp.com/avatars/712088208514482197/1e0ac7ca957ca8a209ba1857c3773dbc.png?size=1024" /> @spectre <span class="likecount"><i class="far fa-heart"></i> 50m</span></p> <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Anatomy_of_a_Sunset-2.jpg" class="postimage" />
+			<p class="comments">57 Comments... <i class="far fa-bookmark"></i>
+				<br><span class="likedby">Liked by 3 friends</span></p>
+		</div>
+	</div>
+	<script src="index.js"></script>
+</body>
+
+</html>
